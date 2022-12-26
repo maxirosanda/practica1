@@ -2,8 +2,19 @@
     color: $colorTexto;
     font-family: 'Poppins', sans-serif;
 }
-
 .container-fluid,.row{
+    margin: auto;
     padding: 0;
-    margin: 0;
+}
+
+
+body{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    max-width: 1400px;
+}
+main,footer{
+    background-color: white;
 }
